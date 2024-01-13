@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="description"
+      content=" Intro section with dropdown navigation - Frontend Mentor">
+    <link rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png">
+    <link rel="preconnect"
+      href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="css/style.css">
+    <link rel="stylesheet"
+      href="css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="css/all.min.css">
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+
+  <body>
+
+    <header class="py-4 position-relative">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <img src="images/logo.svg"
+            alt="logo">
+        </div>
+        <div class="buttons flex-grow-1 justify-content-between align-items-center flex-lg-row flex-column">
+          <ul class="links d-flex justify-content-between-align-items-center list-unstyled flex-lg-row flex-column">
+            <li tabindex="O"
+              class="c-gray f-14 fw-700 position-relative show">
+              <div class="text gap-2 d-flex justify-content-center align-items-center">
+                <p class="m-0">Features</p>
+                <img src="images/icon-arrow-down.svg"
+                  alt="arrow">
+              </div>
+              <ul
+                class="position-absolute bg-white shadow flex-column align-items-start justify-content-between p-3 list-unstyled">
+                <li class="d-flex justify-content-between align-items-center gap-3 mb-3">
+                  <img src="images/icon-todo.svg"
+                    alt="todo">
+                  <p class="m-0 c-gray f-14">Todo List</p>
+                </li>
+                <li class="d-flex justify-content-between align-items-center gap-3 mb-3">
+                  <img src="images/icon-calendar.svg"
+                    alt="todo">
+                  <p class="m-0 c-gray f-14">Calendar</p>
+                </li>
+                <li class="d-flex justify-content-between align-items-center gap-3 mb-3">
+                  <img src="images/icon-reminders.svg"
+                    alt="todo">
+                  <p class="m-0 c-gray f-14">Reminders</p>
+                </li>
+                <li class="d-flex justify-content-between align-items-center gap-3">
+                  <img src="images/icon-planning.svg"
+                    alt="todo">
+                  <p class="m-0 c-gray f-14">Planning</p>
+                </li>
+
+              </ul>
+            </li>
+            <li tabindex="O"
+              class="c-gray f-14 fw-700 position-relative show">
+              <div class="text gap-2 d-flex justify-content-center align-items-center">
+                <p class="m-0">Company</p>
+                <img src="images/icon-arrow-down.svg"
+                  alt="arrow">
+              </div>
+              <ul
+                class="position-absolute bg-white shadow flex-column align-items-start justify-content-between p-3 list-unstyled">
+                <li class="mb-3">
+                  <p class="m-0 c-gray f-14">History</p>
+                </li>
+                <li class="mb-3">
+                  <p class="m-0 c-gray f-14">Our Team</p>
+                </li>
+                <li class="">
+                  <p class="m-0 c-gray f-14">Blog</p>
+                </li>
+              </ul>
+            </li>
+            <li class="c-gray f-14 fw-700">
+              <div
+                class="text position-relative gap-2 d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                <p class="m-0">Carrers</p>
+              </div>
+            </li>
+            <li class="c-gray f-14 fw-700">
+              <div class="text gap-2 d-flex justify-content-center align-items-center">
+                <p class="m-0">About</p>
+              </div>
+            </li>
+          </ul>
+          <div class="subscription d-flex justify-content-between align-items-center gap-4">
+            <p class="c-gray fs-6 fw-700 m-0 c-pointer login">Login</p>
+            <p class="c-gray fs-6 fw-700 register m-0">Register</p>
+          </div>
+        </div>
+        <div class="menu d-flex justify-content-around align-items-center flex-column c-pointer d-lg-none d-block">
+          <span class="w-100 rounded"></span>
+          <span class="w-100 rounded"></span>
+          <span class="w-100 rounded"></span>
+        </div>
+      </div>
+    </header>
+    <section class="hero mt-lg-0 mt-4 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row gx-5 align-items-center flex-lg-row flex-column-reverse">
+          <div class="col-lg-6">
+            <div
+              class="info d-flex flex-column align-items-center align-items-lg-start justify-content-between text-lg-start text-center">
+              <h1 class="text-black fw-700">Make Remote Work</h1>
+              <p class="c-gray fw-700">Get your team in sync, no matter your location. Streamline
+                processes, create
+                team rituals, and watch productivity soar.</p>
+              <button class="btn">Learn more</button>
+              <div class="companies mt-5 w-100 row gx-3">
+                <div class="col-sm-3 col-6">
+                  <img src="images/client-audiophile.svg"
+                    alt="client">
+                </div>
+                <div class="col-sm-3 col-6">
+                  <img src="images/client-maker.svg"
+                    alt="client">
+                </div>
+                <div class="col-sm-3 col-6">
+                  <img src="images/client-meet.svg"
+                    alt="client">
+                </div>
+                <div class="col-sm-3 col-6">
+                  <img src="images/client-databiz.svg"
+                    alt="client">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-lg-0 mb-5">
+            <img src="images/image-hero-desktop.png"
+              class="image img-fluid d-none d-lg-block mx-auto">
+            <img src="images/image-hero-mobile.png"
+              class="img-fluid d-lg-none d-block mx-auto">
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+
+</html>

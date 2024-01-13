@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Epilogue', sans-serif !important;
-  background-color: var(--white);
+  background-color: #fafafa !important;
   overflow-x: hidden;
 }
 

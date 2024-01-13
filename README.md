@@ -5,7 +5,7 @@
 <div align="center">
 
 [Live](https://catherineisonline.github.io/intro-section-with-dropdown-navigation-frontendmentor/)
-| [Solution](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-V6T07Ji6vJ)
+| [Solution](https://github.com/devllopeadam/intro-section-with-dropdown-navigation-frontendmentor)
 | [Challenge](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-V6T07Ji6vJ)

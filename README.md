@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[Live](https://catherineisonline.github.io/intro-section-with-dropdown-navigation-frontendmentor/)
+[Live](https://devllopeadam.github.io/intro-section-with-dropdown-navigation-frontendmentor/)
 | [Solution](https://github.com/devllopeadam/intro-section-with-dropdown-navigation-frontendmentor)
 | [Challenge](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5)
 
